@@ -107,3 +107,8 @@ void binarySearch() // Start function to perform binary search
 
 int main()
 {
+    input(); // Call input function from main to start program flow
+    bubbleSortArray();
+    display();
+    binarySearch();
+}
