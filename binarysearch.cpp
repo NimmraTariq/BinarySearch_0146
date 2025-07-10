@@ -31,3 +31,13 @@ void input()
     }
 }
 
+void bubbleSortArray() // Define a function to sort the array using bubble sort
+{
+    int pass = 1;
+    do
+    {
+        for (int j = 0; j <= nPanjang - 1 - pass; j++)
+        {
+            if (element[j] > element[j + 1])
+            {
+
