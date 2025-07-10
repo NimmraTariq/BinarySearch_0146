@@ -98,3 +98,12 @@ void binarySearch() // Start function to perform binary search
 
         if (low > high)
         {
+             cout << "\n[x] Elemen " << x << " tidak ditemukan dalam array.\n"; // Display message if element is not found
+        }
+        cout << "\nIngin mencari lagi? (y/n): ";
+        cin >> ulang;
+    } while (ulang == 'y' || ulang == 'Y');
+}
+
+int main()
+{
