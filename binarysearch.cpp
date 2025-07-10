@@ -81,3 +81,20 @@ void binarySearch() // Start function to perform binary search
         do
         {
              int mid = (low + high) / 2; // Calculate mid index for binary search
+             if (element[mid] == x) // Check if the search target is found
+            {
+                cout << "\n[✓] Elemen " << x << " ditemukan pada indeks " << mid << ".\n";
+                return;
+            }
+            if (x < element[mid])
+            {
+                high = mid - 1;
+            }
+            if (x > element[mid])
+            {
+                low = mid + 1;
+            }
+        } while (low <= high);
+
+        if (low > high)
+        {
