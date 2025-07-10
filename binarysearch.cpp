@@ -27,3 +27,7 @@ void input()
     for (int i = 0; i < nPanjang; i++)
     {
         cout << "Data ke-" << (i + 1) << " = ";
+        cin >> element[i]; //  Take input for each array element
+    }
+}
+
