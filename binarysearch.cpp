@@ -48,4 +48,11 @@ void bubbleSortArray() // Define a function to sort the array using bubble sort
         pass++;
     } while (pass <= nPanjang - 1);
 }
+void display() //  Create function to display the sorted array
+{
+    cout << "\n=============================================\n";
+    cout << "        Elemen Array Setelah Diurutkan (Asc) \n";
+    cout << "=============================================\n";
+    for (int j = 0; j < nPanjang; j++)
+    {
 
