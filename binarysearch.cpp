@@ -80,3 +80,4 @@ void binarySearch() // Start function to perform binary search
 
         do
         {
+             int mid = (low + high) / 2; // Calculate mid index for binary search
