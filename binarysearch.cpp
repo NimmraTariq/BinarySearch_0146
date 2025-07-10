@@ -40,4 +40,12 @@ void bubbleSortArray() // Define a function to sort the array using bubble sort
         {
             if (element[j] > element[j + 1])
             {
+                 int temp = element[j]; // Swap array elements if they are out of order
+                element[j] = element[j + 1];
+                element[j + 1] = temp;
+            }
+        }
+        pass++;
+    } while (pass <= nPanjang - 1);
+}
 
