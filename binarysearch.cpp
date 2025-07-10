@@ -11,3 +11,19 @@ void input()
     {
         cout << "Masukkan banyaknya elemen pada array (maksimal 10): ";
         cin >> nPanjang; // Read the number of elements from the user
+        if (nPanjang <= 10) // Validate that input does not exceed array limit
+        {
+            break;
+        }
+        else
+        {
+            cout << "\n[!] Jumlah elemen tidak boleh lebih dari 10. Silakan coba lagi.\n";
+        }
+    }
+
+    cout << "\n=============================================\n";
+    cout << "               Masukkan Elemen Array         \n";
+    cout << "=============================================\n";
+    for (int i = 0; i < nPanjang; i++)
+    {
+        cout << "Data ke-" << (i + 1) << " = ";
